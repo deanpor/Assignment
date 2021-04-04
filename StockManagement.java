@@ -11,10 +11,10 @@ public class StockManagement {
 		
 		Scanner input= new Scanner(System.in);
 		
-		refrigerators.add(new Refrigerator (333, "Daisen refrigerator", 20, 2000.00,"Acitve", "Nice", "Blue","Big"));
-		refrigerators.add(new Refrigerator (322, "Polar refrigerator", 19, 2500.00, "Acitve","Bad", "Red"," Big"));
-		tv.add(new TV (486, "Sharp TV", 38, 2600.00, "Active"， "Tesco", "HD","Big Display size"));
-		tv.add(new TV (488, "Hitachi TV", 37, 2800.00, "Active", "Giant", "Non HD","small Display size"));
+		refrigerators.add(new Refrigerator (333, "Daisen refrigerator", 20, 2000.00, "Nice", "Blue","Big"));
+		refrigerators.add(new Refrigerator (322, "Polar refrigerator", 19, 2500.00,"Bad", "Red"," Big"));
+		tv.add(new TV (486, "Sharp TV", 38, 2600.00， "Tesco", "HD","Big Display size"));
+		tv.add(new TV (488, "Hitachi TV", 37, 2800.00, "Giant", "Non HD","small Display size"));
 		
 		//Call the view product function to print out all the elements in an array list
 	
